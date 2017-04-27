@@ -15,3 +15,6 @@ https://play.google.com/store/apps/details?id=com.den.pr
 
 Известные баги
 - в финале один из шагов пропущен. Вроде сразу президентом становишься а не премьером
+
+Описание
+http://pikabu.ru/story/pyatnichnaya_retrospektiva_igryi_prezident_4088333
