@@ -1,0 +1,494 @@
+﻿0 CLS:ШРиТ'ВВЕДИТЕ ВРЕМЯ (ЧАС,МИН)";Х,У 2 ШРиТ'ВВЕДИТЕ год";м
+4 FOR I=0TOX+Y:Z=RND(I):NEXTI 6 1=4
+8 INPUT "ВВЕДИТЕ КАТЕГОРИЮ СЛОЖНОСТИ 0 ,1, 2, И Т.Д.";К5 
+10 DIM A(I),B(I),C(I),C1(I),C2(I),C3(I),D(I),E(I),E1(I),E2(I)
+12 DIM E3(I),F(I),F1(I),F2(I),G(I),G1(I),G2(I),G3(I),J(I),B1(I) 14 DIM B2(I),Rl(I),R2(I),R3(I),UAS(4bUB>a4),UC*(4bUD*(4) r16 B3=0:N=0:S=1:A1=0:K=0:S4=0:K4=0:B(0)=1:N1=0 18 CLS 20 PCLS
+22 PRINT" ПОЗДРАВЛЯЕМ ВАС С ПРИБЫТИЕМ В НАШУ СТРАНУ/'
+24 UA*(0)=' 'БИЗНЕСМЕН":UA*(1)=' 'ЛИДЕР ПРОФСОЮЗА "':UA*(2)='"ШЕРИФ"
+26 UAX(3)="СЕНАТОР'':UAX(4)="ПРЕЗИДЕНТ''
+28 ОВ*(0)="1-КВАРТиРУ":0В*(1)="2-МАШИНУ":0В*(2)="3-ВИЛЛУ"
+30 0В*(3)="4-ЯХТУ":ОВ%(4)="5-САМОЛЕТ"
+32 ОСЗ^(3) ="4-ДЕТЕКТИВА" :ОСЗ^(4) ="5-ОХРАНУ"
+34 ОСХ(0)="1-МАКЛЕРА":UC^(1)="2-BPA4A":0С^(2)="3-АДВАКАТА"
+36 UD*(0)="1-BAP":0DX(1)="2-РЕСТОРАН"МЛ)Я(2)="3-МАГАЗИН"
+38 UDX(3)="4-ОТЕЛЬ":ODX(4)="5-ЗАВ0Д"
+40 PRINT" ГДЕ КАЖДЫЙ МОЖЕТ СТАТЬ ПРЕЗИДЕНТОМ !!!":PRINT 42 GOSUB 496
+44 PRINT" ВАШ ВОЗРАСТ :INPUT N2:CLS
+46 IFN2>60 THEN PRINT"3PR ЕХАЛИ. В МУМИЯХ НЕ НУЖДАЕМСЯ":GOTO1048 48 IF N2 <18 THEN PRINTS АДЕНЦАМ У НАС ДЕЛАТЬ НЕЧЕГО": GOTO 1048 50 GOSUB 904 52 X=1000+500*Y
+54 CLS:ШРиТ'СКОЛЬКО ИМЕЕТЕ НАЛИЧНЫМИ ";Y 56 CLS
+58 IFY<=X THEN X=Y:G0T062
+60 PRINT'TflE ВЫ СТОЛЬКО ДОБЫЛИ. ПО НАШИМ ДАННЫМ У ВАС"
+62 А(0)=Х 
+64 GOSUB 904 
+66 N3=60+20*Y 
+68 GOSUB 904 
+70 N4=2+3*Y 
+72 GOSUB 102 
+74 GOSUB 168 
+76 INPUT X 
+78 CLS
+80	IF	X=8	THEN	840
+82	IF	X=7	THEN	514
+84	IF	X=6	THEN	738
+86	IF	X=5	THEN	262
+88	IF	X=4	THEN	340
+90	IF	X=3	THEN	188
+92	IF	X=2	THEN	616
+94 IF XXI THEN 72 96 GOSUB 1292 98 GOSUB 110 100 GOTO 74
+102 PRINT: A(0) = INT(A(0) ) :РВШТ"НАЛИЧНЫЕ СРЕДСТВА";
+104 PRINT A(0)
+106 PRINT 108 RETURN 110 CLS
+112 PRINT:PRШТ"НАЛИЧНЫЕ СРЕДСТВА";:PRINT A(0)
+114 PRINT"B АКЦИЯХ ";:PRINTTAB(5)A(1)
+116 PRINT"C4ET В БАНКЕ";:PRINTTAB(5)A1 118 РКШГ'НЕДВИЖИМОСТЬ"; :PRINTTAB(5)A(2)
+120 PRINT'TOflOBOH ДОХОД";:PRINTTAB(4)A(3)
+122 PRINT"PACXOfl ЗА ГОД";:PRINTTAB(4)A(4)
+124 X=A(0) +A1+A(1) +A(2) +A(3)-A(4)
+126 PRINT:PRШТ"ВЕСЬ ВАШ КАПИТАЛ СОСТАВЛЯЕТ ";:PRINT X:PRINT 128 GOSUB 936 :RETURN
+130 PRINT:PRШТ"В НАСТОЯЩЕЕ ВРЕМЯ ВЫ -"
+132 FOR I=0TO4
+134 IF B(I)=1 TUEN PRINT UAX(I)
+136 NEXTI 138 RETURN
+140 IF C(0) +C(1) +C(2) +C(3) +C(4) =0 GOTO 152 142 PRINT"Bbl ИМЕЕТЕ"
+144 FORI=0TO4:IFC(I)=1TUENPR INTVB*(I):NEXTI 146 RETURN
+148 IF D (0 ) +D (1) +D (2 ) +D (3 ) +D (4 ) =0 TUEN 158 150 PR ШТ"ОПЛАЧИВАЕТЕ УСЛУГИ-"
+152 GOSUB 936
+154 FORI=0TO4:IFDCI)=1TUEN PRINTUCX(I)
+156 NEXTI 158 RETURN
+160 IFE(0)+E(1)+E(2)+E(3)+E(4)=0 TUEN 166 162 PRINT"Bbl ИМЕЕТЕ -"
+164 FORI=0TO4:IFE(I)=1TUEN PRINTUDSCI):NEXTI 166 RETURN
+168 PRINT" ЧТО ВАС ИНТЕРЕСУЕТ ?"
+170 PRINT" 1-ФИНАНСОВОЕ ПОЛОЖЕНИЕ"
+172 PRINT"2-ОБЩЕСТВЕННОЕ ПОЛОЖЕНИЕ"
+174 PR ШТ"3-ЛИЧН0Е ИМУЩЕСТВО"
+176 PRINT’'4-ВАШИ ПОДЧИНЕННЫЕ"
+178 PRINr'5-ВАШ БИЗНЕС"
+180 PRINT’'6-БИРЖЕВЫЕ ОПЕРАЦИИ"
+182 PRШТ"7-БАНК0ВСКИЕ ОПЕРАЦИИ"
+184 PRШТ"8-РАЗВЛЕЧЕНИЯ"
+186 RETURN 188 GOSUB 102 190 N1=N1+1 192 FOR 1=0 TO 4 194 GOSUB 912
+196 C3(I)=X:C2(I)=Z:C2(I)=INTCC2(I))
+198 NEXTI
+200 IF C(0)+C(1)+C(2)+C(3)+C(4)=0 TUEN 208 202 PRINT"Bbl МОЖЕТЕ ПРОДАТЬ"/'СТОИМОСТЬ"
+204 FORI=0TO4:IFC(I)=1TUENPRINTVBX(I),,C2(I):NEXTI 206 IF K=1 TUEN RETURN
+208 IF C(0)+C(1)+C(2)+C(3)+C(4)=5 TUEN 222 210 PRINT:PRШТ"ВЫ МОЖЕТЕ КУПИТЬ -"/'ЦЕНА"
+212 FORI=0TO4:IFC(I)=0TUENPRINTVBX(I),,C3(I)
+214 NEXTI
+216 PRINT:PR INTTAB(25)"РАСХОДЫ НА СОДЕРЖАНИЕ -45x В ГОД"
+218 PRINT: ШРиГ'ПОКУПАЕТЕ ";X 220 IF XO0 TUEN Z=1:GOTO 228 222 INPUT' 'ПРОДАЕТЕ ";X 224 IFXO0 TUEN Z=-l:G0T0228 226 GOTO 260
+228 INPUT"4TO ";I:I=I—1:IF I<0 TUEN 236
+230 IF I>4 TUEN 236
+232 IF Z=-l TUEN 244
+234 IF C(I)=0 TUEN 240
+236 PRINT:PRINT"HE ГЛУПИТЕ "
+238 GOSUB 140:GOTO 950
+240 IF A(0)>=C2(I) TUEN 248
+242 GOSUB 914:GOTO 950
+244 IF C(I)=1 TUEN 248
+246 GOSUB 928:GOTO 950
+248 Y=C2(I)*C(I)-C3(I)*(1-C(I))
+250 C(I)=C(I)+Z
+252 A(0)=A(0)+Y
+254 INPUT''ЕЩЕ ОДНА СДЕЛКА ";X
+256 IF X=<0TUEN 260
+258 CLS:GOSUB 102:GOTO 200
+260 CLS:GOTO 952
+262 GOSUB 102	:GOSUB 264 :GOTO 272
+264 FOR 1=0 TO 4 266 GOSUB 912
+268 E3(I)=INT(X):E2(I)=INT(Z):E1(I)=INT(Z*(Y-.3))
+270 NEXT I: RETURN 272 N1=N1+1
+274 IF E(0)+E(l)+E(2)+E(3)+E(4)=0 TUEN 284
+276 PRINT"Bbl МОЖЕТЕ ПРОДАТЬ	СТОИМОСТЬ	ГОДОВОЙ ДОХОД"
+278 FORI=0ТО4
+280 IFE СI)=1 TUEN PRINT ODX(I),,E2(I),E1(I)
+282 NEXTI
+284 IFE(0)+E(1)+E(2)+E(3)+E(4)=5 TUEN 294
+286 PRINT"Bbl МОЖЕТЕ КУПИТЬ	СТОИМОСТЬ	ЦЕНА"
+288 FORI=0TO4
+290 IF E(I)=0 TUEN PRINT UDXCI),,E3(I),E1(I)
+292 NEXTI
+294 PRINT:INPUT" ПОКУПАЕТЕ ";X
+296 IF XO0 TUEN Z=1:GOTO 304
+298 INPUT''ПРОДАЕТЕ ";X
+300 IF XO0 TUEN Z=-i:GOTO 304
+302 GOTO 338
+304 INPUT"4TO";i:i=I-l
+306 IF I<0 THEN 316
+308 IF I>4 THEN 316
+310 IF Z=-l GOTO 322
+312 IF E(I)=0 THEN 318
+314 PRINT:PRINT"Bbl СПЯТИЛИ ?"
+316 GOSUB 160:GOTO 952
+318 IF A(0)>E2(I) GOTO 326
+320 GOSUB 914:GOTO 952
+322 IF E(I)=1 THEN 326
+324 ШРиТ"УВОЛЬНЯЕТЕ";Х
+326 Y=E2(I)*E(I)-E3(I)*(1-E(I))
+328 E(I)=E(I)+Z
+330 A(0)=A(0)+Y
+332 INPUT''ЕЩЕ ОДНА СДЕЛКА ";X
+334 IF X<=0THEN 338
+336 CLS:GOSUB 102 :GOTO 274
+338 GOTO 952
+340 GOSUB 102
+342 FOR I=0TO 4
+344 GOSUB 904
+346 D1(I)=4500*Y+2000*(I+1)
+348 NEXTI 350 N1=N1+1
+352 IF D (0 ) +D (1) +D (2 ) +D (3 ) +D (4 ) =0 THEN 364
+354 PRINT"Bbl МОЖЕТЕ УВОЛИТЬ	ЗАПЛАТИВ НЕУСТОЙКУ
+356 FORI=0TO4
+358 IF D(I)=1 THEN PRINT UCX(I),,D1(I)~2 360 NEXTI 362 PRINT
+364 IF D (0 ) +D (1) +D (2 ) +D (3 ) +D (4 ) =5 THEN 374
+366 PRINT"Bbl МОЖЕТЕ НАНЯТЬ	УПЛАТИВ В ГОД"
+368 FORI=0ТО4
+370 IF D(I)=0 THEN PRINT UCXCI),,D1CI)
+372 NEXTI
+374 PRINT:INPUT"HAHHMAETE";X 376 IFXX0 THEN Z=1:GOTO 384 378 ШРиГ'УВОЛЬНЯЕТЕ ";X 380 IF XO0 THEN Z=-i:GOTO 384 382 GOTO 414
+384 INPUT"KOrO I:1=1-1 386 IF I<0 GOTO 396 388 IF I>4 THEN 384 390 IF Z=-l GOTO 398 392 IF D(I)=0 THEN 406
+394 PRINT:PRINT"y ВАС ПРОГРЕССИРУЮЦИЙ СКЛЕРОЗ !!!"
+396 GOSUB 148:GOTO 950 398 IF D(I)=1 THEN 404 400 PRINT:PRШГ'ВЫ РЕХНУЛИСЬ ?"
+402 GOTO 384
+404 A(0)=A(0)-D1(I)~.2
+406 D(I)=D(I)+Z
+408 INPUT''ЕЩЕ ОДНА СДЕЛКА ";X
+410 IF X=<0 THEN 414
+412 CLS:GOSUB 102 :GOTO 352
+414 GOTO 952
+416 GOSUB 904
+418 Y=Y*10:Y=INT(Y)
+420 IF Y>=5 THEN RETURN 422 I=Y
+424 IF D(I)=1 THEN RETURN 426 GOSUB 904 428 X=A(0)~Y 430 IF I>0 THEN 440
+432 PRINT'HrPAR НА БИРЖЕ ВЫ НЕПРАВИЛЬНО ОФОРМЛЯЛИ СДЕЛКИ."
+434 PRINT"yBblTOK СОСТАВИЛ " X
+436 PRINT' 'ЗАВЕДИТЕ ХОРОШЕГО МАКЛЕРА"
+438 GOTO 478
+440 IF I>1 THEN 450
+442 PRINT''ЗАНИМАЯСЬ БИЗНЕСОМ ВЫ ЗАБЫВАЕТЕ О ЗДОРОВЬЕ."
+444 PR ШТ"ПРЕБЫВАНИЕ В БОЛЬНИЦЕ ОБОШЛОСЬ ВАМ В";Х
+446 GOSUB 936
+448 GOTO 478
+450 IF I>2 GOTO 468
+452 PRINT"THPMA IBM ВОЗБУДИЛА ПРОТИВ ВАС СУДЕБНОЕ ДЕЛО"
+454 PRINT"HAHHMAETE АДВОКАТА ?"
+456 PRINT"ErO УСЛУГИ ОБОЙДУТСЯ В ";Х~.5
+458 INPUT Z
+460 IF Z=<0 GOTO 468
+462 PRШТ"ВЫ ВЫИГРАЛИ ДЕЛО.COBETUEM ИМЕТЬ СОБСТВЕННОГО ЮРИСТА"
+464 GOSUB 936
+466 GOTO 478
+468 IF I>3 THEN 480
+470 PRINT"BAC ШАНТАЖИРУЮТ,ВЫМОГАЯ";X
+472 PRШГ'ССОЧУСТВУЕМ,НО ВЫ ВОВРЕМЯ НЕ ОБРАТИЛИСЬ К УСЛУГАМ"
+474 PRШТ"СЫСКНОГО БЮРО. ПРИДЕТССЯ ПЛАТИТЬ."
+476 GOSUB 936
+478 A(0)=A(0)-X:GOTO 494
+480 Х=0
+482 FOR 1=0 ТО 4
+484 X=X+F(I)~F1(I):F(I)=0
+486 NEXTI
+488 IF X=0 THEN RETURN
+490 PRINT"BAC ОБЧИСТИЛИ,ЗАБРАВ ВСЕ ЦЕННЫЕ БУМАГИ.УБЫТОК"
+492 РВШТ"СОСТАВИЛ ";Х
+494 PRINT"y4THTE НА БУДУЩЕЕ .":GOSUB 936 :RETURN 496 PRINT"MOXHO ДАЖЕ ПРЕДСТАВИТЬ, ЧТО . . ."
+498 FOR 1=0 T04:C(I)=l:D(I)=l:E(I)=l:NEXTI 500 GOSUB 142 502 GOSUB 150 504 GOSUB 162
+506 PRINT'H СЧЕТ В БАНКЕ - 1 000 000&,HO ПОКА ЭТО МЕЧТЫ."
+508 PRINT' 'РЕАЛИЗУЙТЕ ИХ "
+510 FOR 1=0 ТО 4:C(I)=0:D(I)=0:E(I)=0:NEXTI 512 RETURN
+514 IF RNDC1X.97 THEN 520
+516 PRINT"BAHK - БАНКРОТ ! ВАМ ВЫПЛАЧЕНА КОМПЕНСАЦИЯ -";A1~.05
+518 A(0)=INT(A(0)+A1~.05):A1=0:GOTO 950
+520 PRINT"BAHK ПРИВЕТСТВУЕТ КЛИЕНТА, ЧЕГО ЖЕЛАЕТЕ ?"
+522 PRINT"1-ЗАСТРАХОВАТЬ ИМУЩЕСТВО":PRINT"2-СДЕЛАТЬ ВКЛАД"
+524 PRШТ"3-СНЯТЪ СО СЧЕТА": N1=N1+1 526 IF S4=0 THEN PRINT"4-flATb ССУДУ"
+528 IF K4=0 THEN PRINT"5-ПОЛУЧИТЬ КРЕДИТ"
+530 A1=INT(A1):INPUT X 532	IF	X=0	THEN	952
+534	IF	X>5	THEN	952
+536	IF	X=1	THEN	580
+538	IF	X=2	THEN	560
+540	IF	X=4	THEN	1146
+542	IF	X=5	THEN	1180
+544 A1=INT(A1):PRINT"C4ET В БАНКЕ ";A1 546 PRINT''СТОИМОСТЬ ОПЕРАЦИИ -5x"
+548 ШРиГ'СКОЛЬКО БЕРЕТЕ ";X 550 IF X<=A1 THEN 554 552 GOTO 570
+554 A1=A1-X:A(0)=A(0)+X~.95 556 IF K=1 THEN RETURN 558 GOTO 952 560 PRINT:GOSUB 102
+562 PRШТ'ТАРАНТНРУЕМ "2*8"хГ0Д0В0Г0 ДОХОДА"
+564 PRINT''СТОИМОСТЬ ОПЕРАЦИИ - 5x"
+566 INPUT "СКОЛЬКО ПОМЕЩАЕТЕ ";X
+568 IF X<A(0) THEN 578
+570 GOSUB 914
+572 PRINT"RCHO ?":INPUTV
+574 IF K=1 THEN RETURN
+576 GOTO 952
+578 A(0)=A(0)-X:A1=A1+X~.95:GOTO 952 580 PRINT"MOXHO ЗАСТРАХОВАТЬ TO, ЧТО"
+582 GOSUB 142 :K=0
+584 PRINT'TOflOBOft СТРАХОВОЙ ВЗНОС - 5x"
+586 INPUT''OOPMЛЯЕМ СТРАХОВКУ";X:CLS
+588 IF X=0 THEN 952
+590 K=1:PRШТ"РЕАЛЬНО МЫ ОЦЕНИВАЕМ"
+592 GOSUB 204 :K=0
+594 INPUT"4T0 СТРАХУЕТЕ I
+596 IF I>5 THEN 614
+598 IF 1=0 THEN 614
+600 I=I-l:G2(I)=l:G3(I)=l
+602 INPUT''НА СУММУ ";х 604 G(I)=Х
+606 INPUT"HA КАКОЙ срок";х 608 Gl(I)=Х
+610 INPUT''ЕЩЕ ОДНА СТРАХОВКА";Х:CLS
+612 IF ХХ0 THEN 590
+614 GOTO 952
+616 IF B3=0 THEN 624
+618 PRINT:PRШТ"У ВАС СКЛЕРОЗ.В ЭТОМ ГОДУ ВЫ УЖЕ УЧАСТВОВОЛИ" 620 PRINT"B ВЫБОРАХ"
+622 GOTO 736 624 GOSUB 102 626 GOSUB 130 628 X=N
+630 IF X=0 THEN 644 632 IF X<1 THEN 638 634 X=X-2 636 GOTO 630
+638 PRINT:PRINT''СОЖАЛЕЕМ,НО В ЭТОМ ГОДУ ВЫБОРЫ НЕ ПРОВОДЯТСЯ"
+640 PRINT
+642 GOTO 736
+644 FOR 1=0 ТО 4
+646 GOSUB 912
+648 B1(I)=X
+650 NEXTI
+652 FOR 1=0 TO 4
+654 IF B(I)=1 THEN X=I+1
+656 NEXTI
+658 Y=0
+660 FOR 1=0 TO 4
+662 Y=Y+.5*C(I)+2*D(I)+.5*E(I)
+664 NEXTI
+666 I=X:B2(I)=Y/(5~X)
+668 IF B2(I)>1 THEN B2(I)=1
+670 PRINT"B ЭТОМ ГОДУ ВЫ МОЖЕТЕ ПРИНЯТЬ УЧАСТИЕ В ВЫБОРАХ"
+672 Nl=Nl+l:PRINT
+674 PRINT"ECTb	ПРЕДВЫБОРНАЯ КАМПАНИЯ ВЕРОЯТНОСТЬ"
+676 PRINT"MECTO	ОБОЙДЕТСЯ В-	УСПЕХА В х"
+678 PRINT:IF Х=4 THEN PRINT''ПРЕЗИДЕНТА 680 IF X=3 THEN PRINT''СЕНАТОРА 682 IF X=2 THEN PRINT'TJEPHTA"
+684 IF X=1 THEN PR I NT' 'ЛИДЕРА " : PR I NT' 'ПРОФСОЮЗА 686 IF X=1 THEN PR INT"MyCOPlUHKOB 688 PRINT,B1(I),,B2(I)*100 690 PRINT
+692 INPUT''УЧАСТВУЕТЕ В ВЫБОРАХ";Y 694 IF YX0 THEN 702
+696 PRINT"TPyC HE ИГРАЕТ В ХОККЕЙ.СЛЕДУЮЩИЕ ВЫБОРЫ "
+698 PRINT"4EPE3 2 ГОДА."
+700 GOTO 736 702 GOSUB 904
+704 IFA(0)+A1>=B1(I) THEN 710 706 GOSUB 914 708 GOTO 736 710 I=X
+712 IF Y<B2(I) THEN 720
+714 PRINT"Bbl HE ПОЛЬЗУЕТЕСЬ ПОПУЛЯРНОСТЬЮ ИЗБЕРАТЕЛЕЙ"
+716 PRINT"BAC ПРОКАТИЛИ.ВЫ НАБРАЛИ ТОЛЬКО ";Y*50"x ГОЛОСОВ" 718 PRINT:GOTO 734
+720 PRINT:PRШТ"П03ДРАВЛЯЕМ ВАС.ТЕПЕРЬ ВЫ 722 S=S+1
+724 I=Х:В(I)=1:1 = I—1:В(I> =0
+726 GOSUB 132
+728 PAINT (250,100),S,7
+730 IF B(4)=l THEN PRINT"Bbl ДОСТИГЛИ НЕВОЗМОЖНОГО !!!"
+732 IF B(4)=l THEN РВШТ"БОЛЬШЕ ЖЕЛАТЬ НЕЧЕГО":GOSUB 132 734 I=X:А(0)=А(0)-В1(I)
+736 B3=l:G0T0 950 
+738 IF N1=>N4 THEN 826 
+740 GOSUB 416 
+742 X=0:GOSUB 908 
+744 Nl=Nl+l:CLS
+746 PRINT"TEK4UEE ПОЛОЖЕНИЕ БИРЖЕВЫХ ДЕЛ PRINT 748 PRINT"AKUHH"
+750 PRINT"THPMbl	ИМЕЕТЕ	КУРС	ДИВИДЕНТЫ В /Г
+752 PRINT"1-ISHTIRA",F(0),F1(0),F2(0)
+754 PRINT"2-SUEMA ",FC1),F1(1),F2(1)
+756 PRINT"3-U0LU0 ",F(2),F1(2),F2(2)
+758 PRINT"4-I.B.M. ",F(3),F1(3),F2(3)
+760 PRINT"5-K0RUET",F(4),FI(4),F2(4)
+762 GOSUB 102
+764 ШРиГ'ПОКУПАЕТЕ ";X
+766 IF ХХ0 THEN Z=i:GOTO 774
+768 INPUT''ПРОДАЕТЕ ";X
+770 IF ХХ0 THEN Z=-l:GOTO 774
+772 GOTO 952
+774 INPUT "КАКОЙ ФИРМЫ";I:IF I<=0 GOTO 772 776 IF I>5 GOTO 772 778 1=1-1
+780 IF I=J(I) THEN 836 782 J(I)=I
+784 ШРиГ'СКОЛЬКО ";X:X=INT(X)
+786 IF Z=-l GOTO 804
+788 IF X*F1(I)>A(0) THEN 800
+790 U=F1CI)«5*S
+792 IF X<=U THEN 796
+794 PRINT :PRINT''УДАЛОСЬ СКУПИТЬ ТОЛЬКО";U:X=U
+796 Y=F1(I)*X
+798 IF A(0)>=Y THEN 822
+800 CLS:PRINT''СДЕЛКА ЛИКВИДИРОВАНА"
+802 GOSUB 914 :GOTO 950
+804 IF X<=F(I)+.1 THEN 814
+806 CLS :PRINT "ВЫ ИМЕЕТЕ",F(I)
+808 PRINT "А ХОТИТЕ ПРОДАТЬ",X 810 PRINT "СДЕЛКА ЛИКВИДИРОВАНА"
+812 GOSUB 950
+814 U=(105-F1(I))*5*S
+816 IF X<=U THEN 820
+818 PRINT:PRINT' 'УДАЛОСЬ ПРОДАТЬ ТОЛЬКО"U:X=U 820 Y=F1(I)*X
+822 F(I)=F(I)+X*Z:A(0)=A(0)-Y*Z 824 IF N1<=N4 THEN 830
+826 PRINT :PRINT"BHPXA ЗАКРЫТА НА КАНИКУЛЫ"
+828 GOTO 950
+830 INPUT"EII|E ОДНА СДЕЛКА";X 832 IF XO0 THEN CLS:GOTO 748 834 GOTO 952
+836 IF Z=1 THEN PRINT"AKUHH БОЛЬШЕ В ПРОДАЖЕ НЕТ":GOTO 830
+838 PRINT "СРЕДИ ДЕЛОВЫХ ЛЮДЕЙ ДУРАКОВ МАЛО":СОТО 830
+840 GOSUB 102
+842 Nl=Nl+5
+844 FOR 1=0 Т04
+846 GOSUB 912
+848 Rl( I )=X :R2( I )=R1( I )**(2-Y) :R3( I)=Y*100 850 NEXT I
+852 PRINT "РАЗВЛЕКАЯСЬ С УМОМ, МОЖНО ПОЛУЧИТЬ И БАРЫШ"
+854 PRINT
+856 РКШГ'ПОЖЕП	ЗАТРАТЫ	ВОЗМОЖНЫЙ ВЕРОЯТНОСТЬ"
+858 РВШГ'ПРЕДЛОЖИТЬ	ДОХОД	УСПЕХА
+860 PRINT''l-ПРЕФЕРАНС";, R1 (0 ) , R2(0 ) , R3(0 )
+862 PRINr'2-РУЛЕТКУ	,R1(1),R2(1),R3(1)
+864 PRINr'3-ЛЮБОВНИЦУ";,R1(2),R2(2),R3(2)
+866 PRINT"4-BAHKET	,R1(3),R2(3),R3(3)
+868 PRINT’'5-КРУИЗ	,R1(4) ,R2(4) ,R3(4)
+870 PRINT: ШРиТ'ТУЛЯЕМ ";X 872 IF ХХ0 THEN 878
+874 PRINT:PRINT''ВАМ ГОВОРИЛИ УЖЕ, ЧТО ВЫ ЖМОТ ?":G0SUB936 876 CLS:GOTO 952
+878 PRINT: ШРиГ'ЧЕГО ИЗВОЛИТЕ - С ";Х
+880 I=X-1:IF I<0 THEN 876
+882 IF I>4 THEN 876
+884 IF A(0)+A1>R1(I) THEN 890
+886 GOSUB 914 :GOSUB 950
+888 GOTO 876
+890 GOSUB 904
+892 Y=Y~100
+894 IF Y<R3(I) THEN 900
+896 PRINT:PRINT"BAM HE ВЕЗЕТ - ОДНИ РАСХОДЫ.":GOSUB 936 898 A(0)=A(0)-R1(I):GOTO 876
+900 PRINT:PRINT"HA ЭТОТ РАЗ ВАМ ПОВЕЗЛО. ДОВОЛЬНЫ ?":FORI7=1TO70 0:NEXTI7 Ok
+900 PRINT:PRINT"HA ЭТОТ РАЗ ВАМ ПОВЕЗЛО. ДОВОЛЬНЫ ?":FORI7=1TO70 0ШЕХТ17
+902 А (0 ) =А (0 )+R2(I) :GOTO 876
+904 Y=INT(100*RND(1))2100:IF Y<.05 THEN Y=.05
+906 RETURN
+908 FORI=0TO4:GOSUB 904 :F1(n=100*Y:J(I)=-i:GOSUB 904 910 F2C n=20*Y: NEXT I: RETURN
+912 GOSUB 904	:Х=(200+500*У)*(5лП:Z=X*Y:RETURN
+914 PRINT:PRШГ'ВЫ HE ИМЕЕТЕ ТРЕБУЕМОГО КОЛИЧЕСТВА НАЛИЧНЫХ"
+916 PR ШТ''СРЕДСТВ. ЗА ПОПЫТКУ МОШЕННИЧЕСТВА"
+918 GOSUB 904
+920 Q=1000+500*Y
+922 PR ШГ'ВЫ ОШТРАФОВАНЫ НА -";q
+924 A(0)=A(0)-q
+926 RETURN
+928 PRINT:PRINT""ВАМ НЕЧЕГО ПРОДАВАТЬ "
+930 РВШГ'ЖЧЛИКОВ Ч НАС НАКАЗЫВАЮТ"
+932 GOSUB 936 934 RETURN 936 FOR U=OTO 300 938 U1=0*2 940 NEXTU
+942 AH=INKEYH: IFAXO" " THEN GOTO 942
+944 CLS
+946 RETURN
+948 PRINT:GOSUB 936
+950 PRINT:GOSUB 936
+952 CLS
+954 GOSUB 1240
+956 IF А(0)<0 THEN 960
+958 IF N1<N4 THEN 72
+960 РВШГ'ЗАКОНЧИЛСЯ"; fM+N" ГОД"
+962 PRINT""ПОДВЕДЕМ ИТОГИ"
+964 N=N+1:N2=N2+1 966 GOSUB 130 968 GOSUB 140 970 GOSUB 148 972 GOSUB 160 974 GOSUB 1292 976 A1=A1+A1*S*.02 978 GOSUB 110
+980 INPUT""БУДЕМ ОПЛАЧИВАТЬ РАСХОДЫ ";Z 982 CLS
+984 IF C(0)+C(2)>0 THEN 996 986 GOSUB 904
+988 X=Y*A(0)+1000:IF X<0 THEN A(0)=A(0)+X:GOTO 992 990 A(0)=A(0)-X
+992 PRINT""ЗА БРОДЯЖНИЧЕСТВО ВЫ ОШТРАФОВАНЫ НА СУММУ -";Х
+994 GOSUB 936
+996 IFZ>0THEN 1008
+998 GOSUB 904
+1000 X=Y*A(0)+1000:IF X<0 THEN A(0)=A(0)+X:GOTO 1004 1002 A(0)=A(0)-X
+1004 PRШТ"ВЫ ОШТРАФОВАНЫ НАЛОГОВЫМ УПРАВЛЕНИЕМ НА СУММУ -";Х 1006 PRINT" "ЗА	ЖМОТНИЧЕСТВО. ":GOSUB 936
+1008 А(0)=А(0)+А(3)-А(4)
+1010 IF АС0К0 THEN PR ШТ""У ВАС ДЕФИЦИТ СРЕДСТВ ";А(0)
+1012 IF А(0)>0 THEN 1020 1014 IF А1>0 THEN K=l:GOSUB 544 1016 K=0
+1018 IF АС0Х0 THEN 1066 1020 CLS
+1022 IF N2>=N3 THEN 1038
+1024 РВШГ'НАСТЧПИЛ НОВЫЙ f";M+N" ГОД"
+1026 N1=0:B3=0:GOSUB 264
+1028 GOSUB 1310
+1030 GOSUB 1210
+1032 GOSUB 1222
+1034 IF АС0К0 THEN 1010
+1036 GOTO 68
+1038 PRINT""ГОСПОДА! МЕДЖЧНАРОДНЫЙ БИЗНЕС ПОНЕС НЕВОСПОЛНИМУЮ" 1040 PR ШТ""УТРАТУ. НА"ШЗ"Г0ДУ ЖИЗНИ ЗАКОНЧИЛАСЬ ДЕЯТЕЛЬНОСТЬ" 1042 PRINT""НАШЕГО КОЛЛЕГИ"
+1044 PRINT:PRINT"nPHMHTE СОБОЛЕЗНОВАНИЯ."
+1046 GOSUB 936
+1048 INPUT""НАЧНЕМ СНАЧАЛА ";Х 1050 IF Х=0 THEN END 1052 FOR 1=0 ТО 4
+1054 ACD=0:BCD=0:CCD=0:C1CD=0:C2CD=0:C3CD=0:DCD=0 1056 D1CD=0:ECD=0:E1CD=0:E2CD=0:E3CD=0:FCD=0:F1CD=0 1058 F2 С П =0:G С П =0:G1С П =0:G2 С П =0:G3 С П =0:J С П =0:B1С П =0 1060 В2(П=0 1062 NEXTI 1064 GOTO 16
+1066 IF А(1)>0 THEN 1072 1068 IF А(2)>0 THEN 1088 1070 GOTO 1106 1072 GOSUB 904
+1074 X=A(1)*Y:A(0)=A(0)+X:A(1)=0 1076 FOR 1=0 TO 4 1078 FCI)=0 1080 NEXTI
+1082 PRINT''ВАШИ АКЦИИ РАСПРОДАНЫ НА СУММУ ";Х 1084 INPUT U 1086 GOTO 1018 1088 GOSUB 904
+1090 X=A(2)*Y:A(0)=A(0)+X:A(2)=0 1092 FOR 1=0 TO 4 1094 CCD=0:ECD=0:DCD=0 1096 NEXT I
+1098 PRINT""ВАШЕ ИМУЩЕСТВО ПОШЛО С МОЛОТКА.УДАЛОСЬ ВЫРУЧИТЬ" ;Х 1100 PRШГ'ПОДЧИНЕННЫЕ ВАС БРОСИЛИ!";
+1102 ШРиТ"ДОИГРАЛИСЬ";и
+1104 GOTO 1018
+1106 Х=-А (0)2500 :Х=ШТ(Х)
+1108 Х=Х+1
+1110 IF Х>15 GOTO 1142 1112 N2=N2+X:N=N+X:А(0)=0 1114 FOR 1=0 ТО 4 1116 ВС П=0 :S=1 1118 NEXT I 1120 В(0)=1
+1122 PRINT""ЗА ДОЛГИ И НЕОПЛАЧЕННЫЕ СЧЕТА ВА ПЕРЕЕЗЖАЕТЕ НА"
+1124 PR ШТ""КАЗЕННУЮ КВАРТИРУ В FORT LEUECK СРОКОМ НА";Х
+1126 К2=К2-Х:S6=S6-X
+1128 РВШГ'ПОСИДИМ ?": INPUT U
+1130 GOSUB 904
+1132 X=1000+500*Y:А(0)=Х
+1134 АСЗ)=0:АС4)=0
+1136 РВШГ'ПОСЛЕ ОСВОБОЖДЕНИЯ ВАМ ВЫДАЛИ ПОДЪЕМНЫЕ-" ;Х 1138 РВШГ'ПОЛУЧИЛИ УРОК ?": INPUT U 1140 GOTO 1020
+1142 PRINT""ЗА ОГРОМНЫЕ ДОЛГИ ВЫ ПРИГОВОРЕНЫ К ВЫСШЕЙ МЕРЕ"
+1144 GOTO 1044 1146 CLS:GOSUB 102
+1148 PR ШТ" "СНАЧАЛА ДОГОВОРИМСЯ ОБ УСЛОВИЯХ":PRINT
+1150 ШРиГ'СКОЛЬКО ХОТИТЕ ДАТЬ ";si
+1152 IF S1<A(0)+A1 THEN 1156
+1154 GOSUB 914 :GOTO 952
+1156 INPUT""НА КАКОЙ СРОК ";S6
+1158 IF S6>10 THEN PRINT""СДУРЕЛИ ?":GOTO 1156
+1160 ШРиГ'ПОД КАКИЕ ПРОЦЕНТЫ ";S2
+1162 IFS2>20THENS2=.1
+1164 S3=502(60+S2):S2=S22100
+1166 PRINT""ШАНС ЗАРАБОТАТЬ -";S3*100
+1168 ШРиГ'ПО РУКАМ ";x
+1170 IF X=0 THEN 952
+1172 S4=l:A(0)=A(0)-Sl
+1174 GOSUB 904
+1176 IF Y<S3 THEN S5=l:G0T0 952 1178 S5=0:GOTO 952 1180 CLS:GOSUB 102 1182 K5=A(0)+A1+A(1)+A(2)+A(3)-A(4)
+1184 IF K5<0 THEN PRINT "БАНКРОТАМ HE ДАЕМ":G0T0952 1186 PRINT""СО ВСЕМИ ПОТРОХАМИ ВЫ СТОИТЕ ";К5 
+1188 PRINT"flAEM НА СРОК НЕ БОЛЕЕ 5 ЛЕТ"
+1190 ШРиГ'СКОЛЬКО ПРОСИТЕ ";К1 1192 INPUT""НА КАКОЙ СРОК ";К2
+1194 IF К2>5 THEN РВШГ'ОЧУМЕЛИ ? ЧИТАТЬ УМЕЕТЕ ?":GOTO 1192 
+1196 КЗ=К1/К5
+1198 PRINT"flAEM ПОД ";КЗ*100"ПРОЦЕНТОВ"
+1200 INPUT""БЕРЕТЕ ";Х Ok
+1202 IF X=0 THEN 952
+1204 PRINT''ЗАПОМНИТЕ ВРЕМЯ РАСПЛАТЫ -";M+N+K2'T0fl"
+1206 INPUT U
+1208 A(0)=A(0)+Kl:K4=l:GOTO 952 1210 IF K4=0 THEN RETURN 1212 K2=K2-1
+1214 IF K2>0 THEN RETURN
+1216 X=K1+K1*K3:A(0)=A(0)-X:K4=0
+1218 PRINT"C ВАС УДЕРДАЛИ КРЕДИТ И ПРОЦЕНТЫ В РАЗМЕРЕ ";Х 1220 RETURN
+1222 IF S4=0 THEN RETURN 1224 S6=S6-1
+1226 IF S6>0 THEN RETURN
+1228 S4=0
+1230 IF K5>0 THEN 1234 1232 GOTO 1236
+1234 IF S5=0 THEN PRINT"AVEPA С ССУДОЙ HE УДАЛАСЬ:RETURN 1236 X=S1+S1*S2:A(0)=A(0)+X
+1238 PRINT"Bbl УДАУНО ССУДИЛИ ДЕНЬГИ.БАРЫШ СОСТАВИЛ ";X:RETURN
+1240 GOSUB 904
+1242 IF Y>.2 THEN RETURN
+1244 GOSUB 904
+1246 Y=Y*10:Y=INT(Y)
+1248 IF Y=0 THEN RETURN 1250 IF Y>=5 THEN RETURN 1252 I=Y
+1254 IF ССП=0 THEN RETURN
+1256 IF G3CI)=0 THEN 1260
+1258 IF GCn>C2Cn*1.5 THEN RETURN
+1260 X=C2CI)
+1262	IF	Y=1	THEN	1272
+1264	IF	Y=2	THEN	1276
+1266	IF	Y=3	THEN	1278
+1268	PRINT"Bbl НА	СВОЕМ САМОЛЕТЕ ПОПАЛИ В АВИАКАТАСТРОФУ."
+1270 PRINT"HAM ОУЕНЬ ЖАЛЬ НО . . .":PRINT:GOTO 1044 1272 PRINT"Bbl ПОПАЛИ В АВТОКАТАСТРОФУ И УУДОМ ОСТАЛИСЬ ЖИВЫ !" 1274 PRINT"OCTAHKH АВТОМОБИЛЯ МОЖЕТЕ ВЫБРОСИТЬGOTO 1280 1276 PRШГ'СИОНИСТЫ ПОДОЖГЛИ ВАШУ ВИЛЛУ !":GOTO 1280 1278 PR ШГ'ЭКСТРЕМИСТЫ УВЕЛИ И ЗАТОПИЛИ ВАШУ ЯХТУ "
+1280 PRINT"BAM НАНЕСЕН УЩЕРБ В РАЗМЕРЕ -";Х 1282 IF G3CI)=0 THEN 1286
+1284 PRШГ'СТРАХОВАЯ КАМПАНИЯ ВЫПЛАТИЛА ВАМ ";GCn
+1286 A(0)=A(0)-X+G3(n*GCn
+1288 С С I)=0:G С I)=0:GlС I)=0:G2 С I)=0:G3 С I)=0
+1290 RETURN
+1292 A(1)=0:A(2)=0:A(3)=0:A(4)=0
+1294 FOR 1=0 TO 4
+1296 ACl)=FCn*FlCn+ACl)
+1298 AC2)=CCn*C3Cn+ECn*E3Cn+AC2)
+1300 A(3)=E(I)*E1U)+FU)*F2U)*.5+A(3)
+1302 AC4)=DCI)*D1CI)+CCI)«C2CI)*.45+G3CI)«GCI)*.05+AC4)
+1304 NEXTI
+1306 GOSUB 904
+1308 RETURN
+1310 FOR 1=0 TO 4
+1312 GlCn=GlCn-l
+1314 IF G1CI)>0 THEN RETURN
+1316 G С П =0:GlС П =0:G2 С П =0:G3 С П =0:NEXTI:RETURN
+1318 GOSUB 1240
+1320 PRINT
+1322 GOTO 1318
+1324 END
+Ok
+I
