@@ -18,3 +18,5 @@ https://play.google.com/store/apps/details?id=com.den.pr
 
 Описание
 http://pikabu.ru/story/pyatnichnaya_retrospektiva_igryi_prezident_4088333
+
+<img src="https://github.com/UncleJey/prezident/blob/master/pics/1459456982115058586.png?raw=true" width="1024px">
